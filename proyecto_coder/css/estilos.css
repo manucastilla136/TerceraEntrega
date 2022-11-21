@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Silkscreen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Comic+Neue:ital,wght@1,700&family=Silkscreen&display=swap');
+.hoverNav:hover{
+    background-color: deeppink;
+    border-radius: 3px;
+    box-shadow: 2px 2px 2px  deeppink;
+}
+.titulo{
+    font-family: 'Silkscreen';
+    color: blueviolet;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1rem;
+    font-size: 3rem;
+}
+.titulo2{
+    font-family: 'Comic Neue';
+    color: deeppink;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.colorH{
+color: deeppink;
+font-family: 'Silkscreen'
+}
+.colorP{
+    color: rgb(255, 255, 0);
+    font-family: 'Comic Neue';
+}
+.hoverTienda{
+    color: deeppink;
+    text-decoration: none;
+}
+.hoverTienda:hover{
+color: blueviolet;
+}
+.imagenFondo{
+    background-image: linear-gradient(
+        rgba(0,0,0,0.9),
+        rgba(0,0,0,0.9)
+    )
+    ,url(../imagenes/juegos3.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 25vh;
+}
+body{
+    background: rgb(135,4,162);
+    background: linear-gradient(332deg, rgba(135,4,162,1) 0%, rgba(0,0,0,1) 100%);
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+.letrasFooter{
+    color: deeppink;
+    font-family: 'Silkscreen';
+    display: flex;
+    align-items: center;
+}
+.icono{
+    position: relative;
+    display: flex;
+    justify-content: end;
+    display: inline-block;
+    animation: float infinite 4s ease-in-out;
+}
+
+@keyframes float{
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-25px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+.card-title{
+    color: deeppink;
+    font-family: 'Silkscreen'
+}
+.card-text{
+    color: rgb(255, 255, 0);
+    font-family: 'Comic Neue';
+}
+.cardEstilo{
+    background: linear-gradient(332deg, rgba(135,4,162,1) 0%, rgba(0,0,0,1) 100%);
+    border: 1px;
+    border-color: deeppink;
+}
+.botonT{
+    align-items: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    border-radius: 3px;
+    border: 2px solid deeppink;
+    color:  rgba(113, 4, 156, 0.774);
+    background-color:black;
+    box-shadow: 10px 10px 15px rgba(113, 4, 156, 0.774);
+}
+.botonT:hover{
+    background-color: deeppink;
+}
+.cardImg{
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+    background-image: none;
+    object-fit: cover;
+}
