@@ -1,0 +1,10 @@
+.colorNav{
+    background-color: blue;
+}
+.titulo{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: blueviolet;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
