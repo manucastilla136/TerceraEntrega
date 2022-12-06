@@ -1,0 +1,30 @@
+
+.hoverNav{
+    &:hover{
+        background-color: $color;
+        border-radius: 3px;
+        box-shadow: 2px 2px 2px  $color;
+    }
+}/*
+.hoverNav:hover{
+    background-color: deeppink;
+    border-radius: 3px;
+    box-shadow: 2px 2px 2px  deeppink;
+}*/
+.titulo{
+    font-family: $letras1;
+    color: $color2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1rem;
+    font-size: 3rem;
+}
+.titulo2{
+    font-family: $letras2;
+    color: $color;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}

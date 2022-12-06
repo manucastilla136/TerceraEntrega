@@ -1,0 +1,42 @@
+.footer{
+    display: flex;
+    justify-content: space-between;
+    .letrasFooter{
+        color: $color;
+        font-family: $letras1;
+        display: flex;
+        align-items: center;
+    }
+    .icono{
+        position: relative;
+        display: flex;
+        justify-content: end;
+        display: inline-block;
+        animation: float infinite 4s ease-in-out;
+    }
+}
+@keyframes float{
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-25px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+/*
+.letrasFooter{
+    color: deeppink;
+    font-family: 'Silkscreen';
+    display: flex;
+    align-items: center;
+}
+.icono{
+    position: relative;
+    display: flex;
+    justify-content: end;
+    display: inline-block;
+    animation: float infinite 4s ease-in-out;
+}*/

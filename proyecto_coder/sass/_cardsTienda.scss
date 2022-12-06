@@ -1,0 +1,46 @@
+
+/*
+.card-title{
+    color: deeppink;
+    font-family: 'Silkscreen';
+}
+.card-text{
+    color: rgb(255, 255, 0);
+    font-family: 'Comic Neue';
+}*/
+.cardEstilo{
+    background: linear-gradient(332deg, rgba(135,4,162,1) 0%, rgba(0,0,0,1) 100%);
+    border: 1px;
+    border-color: $color;
+    .card-title{
+        color: $color;
+        font-family: $letras1;
+    }
+    .card-text{
+        color: $color3;
+        font-family: $letras3;
+    }
+}
+.botonT{
+    align-items: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    border-radius: 3px;
+    border: 2px solid $color;
+    color:  rgba(113, 4, 156, 0.774);
+    background-color:black;
+    box-shadow: 10px 10px 15px rgba(113, 4, 156, 0.774);
+    &:hover{
+        background-color: $color;
+    }
+}/*
+.botonT:hover{
+    background-color: deeppink;
+}*/
+.cardImg{
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+    background-image: none;
+    object-fit: cover;
+}

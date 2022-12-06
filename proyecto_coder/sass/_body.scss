@@ -1,0 +1,34 @@
+.colorH{
+    color: $color;
+    font-family: $letras1;
+    }
+    .colorP{
+        color: $color3;
+        font-family: $letras3;
+    }
+    .hoverTienda{
+        color: $color;
+        text-decoration: none;
+             &:hover{
+            color: $color2;
+            }
+    }
+    /*
+    .hoverTienda:hover{
+    color: blueviolet;
+    }*/
+    .imagenFondo{
+        background-image: linear-gradient(
+            rgba(0,0,0,0.9),
+            rgba(0,0,0,0.9)
+        )
+        ,url(../imagenes/juegos3.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        height: 25vh;
+    }
+    body{
+        background: rgb(135,4,162);
+        background: linear-gradient(332deg, rgba(135,4,162,1) 0%, rgba(0,0,0,1) 100%);
+    }
